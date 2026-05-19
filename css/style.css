@@ -617,6 +617,16 @@ html, body { width: 100%; height: 100%; overflow: hidden; background: #1a1a1a; f
 .autoplay-btn:active { transform: scale(0.97); }
 
 /* ===== REASON SCREENS WITH JPG BACKGROUNDS ===== */
+.screen-content {
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .reason-bg-1 {
   background: url('../фоны/1.jpg') center/cover no-repeat;
   background-color: #fff;
